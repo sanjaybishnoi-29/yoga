@@ -1,0 +1,98 @@
+.page {
+  padding: 8rem 2rem 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  max-width: 680px;
+  width: 100%;
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.42em;
+  color: var(--color-gold);
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.body {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  line-height: 1.9;
+  margin-bottom: 1.5rem;
+}
+
+.em {
+  color: var(--color-gold);
+  font-style: italic;
+  font-family: var(--font-display);
+  font-size: 1.05em;
+}
+
+.quote {
+  border-left: 2px solid var(--color-gold);
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  margin: 2rem 0;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--color-gold-light);
+  line-height: 1.6;
+}
+
+.cite {
+  display: block;
+  font-size: 0.78rem;
+  font-style: normal;
+  color: var(--color-text-muted);
+  letter-spacing: 0.08em;
+  margin-top: 0.6rem;
+  font-family: var(--font-body);
+}
+
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin-top: 3rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.pillar {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 1.5rem 1.25rem;
+}
+
+.pillarIcon {
+  font-size: 1.75rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.pillarTitle {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--color-gold);
+  margin-bottom: 0.5rem;
+}
+
+.pillarDesc {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+  .page { padding: 6rem 1.25rem 4rem; }
+}

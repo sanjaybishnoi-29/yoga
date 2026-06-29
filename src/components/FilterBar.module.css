@@ -1,0 +1,43 @@
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.label {
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.4rem 1.1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: transparent;
+  color: var(--color-text-muted);
+  transition: all var(--transition);
+  font-family: var(--font-body);
+}
+
+.btn:hover {
+  color: var(--color-text-secondary);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn.active {
+  background: var(--color-gold);
+  border-color: var(--color-gold);
+  color: #0a0a0f;
+}
