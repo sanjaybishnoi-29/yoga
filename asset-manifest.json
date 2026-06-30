@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/sanjaybishnoi-29/yoga/static/css/main.5edecacf.css",
-    "main.js": "/sanjaybishnoi-29/yoga/static/js/main.c4daaabf.js",
-    "index.html": "/sanjaybishnoi-29/yoga/index.html",
-    "main.5edecacf.css.map": "/sanjaybishnoi-29/yoga/static/css/main.5edecacf.css.map",
-    "main.c4daaabf.js.map": "/sanjaybishnoi-29/yoga/static/js/main.c4daaabf.js.map"
+    "main.css": "/yoga/static/css/main.5edecacf.css",
+    "main.js": "/yoga/static/js/main.c4daaabf.js",
+    "index.html": "/yoga/index.html",
+    "main.5edecacf.css.map": "/yoga/static/css/main.5edecacf.css.map",
+    "main.c4daaabf.js.map": "/yoga/static/js/main.c4daaabf.js.map"
   },
   "entrypoints": [
     "static/css/main.5edecacf.css",
